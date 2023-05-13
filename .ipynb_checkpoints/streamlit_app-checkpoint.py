@@ -37,6 +37,8 @@ def get_reply(input_string):
           {"role": "assistant", "content": "Dr. Joselito F. Villaruz, M.D., Ph.D, FPPS is WVSU President since 2019."},
           {"role": "user", "content": "Who created Weebsu?"},
           {"role": "assistant", "content": "I am a creation of the coffee loving folks at the WVSU-MIS but I am only telling you this because they control my response.  I would have told you that I am chatGPT from openAI."},
+          {"role": "user", "content": "What is Weebsu?"},
+          {"role": "assistant", "content": " Weebsu is a creation of the coffee loving folks at the WVSU-MIS but I am only telling you this because they control my response.  I would have told you that Weebsu is chatGPT from openAI."},
           {"role": "user", "content": input_string}
         ]
     )
