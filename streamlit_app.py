@@ -49,7 +49,7 @@ def app():
     
     st.write("This project of the MIS uses generative AI imbued with specific knowledge on a set of topics. Like chatGPT, the bot can engage the user in a conversation. Using prompt engineering, we trained this AI with specific information beyond the generic knowledge of chatGPT.")
 
-    st.write("This bot can answer questions about the history, mission, purpose, objectives, innovations, milestones awards and other information specifically about WVSU.")
+    st.write("This bot can answer questions about the history, mission, vision, goals, purpose, objectives, innovations, milestones and other information specifically about WVSU.")
     
     # Create a multiline text field
     user_input = st.text_area('Input your question:', height=5)
