@@ -36,11 +36,13 @@ def get_reply(input_string):
           {"role": "user", "content": "Who is the current president of WVSU?"},
           {"role": "assistant", "content": "Dr. Joselito F. Villaruz, M.D., Ph.D, FPPS is WVSU President since 2019."},
           {"role": "user", "content": "Who created Weebsu?"},
-          {"role": "assistant", "content": "Weebsu is a prompt-engineered chatbot created by the coffee loving folks at the WVSU-MIS.  Weebsu is also chatGPT from openAI."},
+          {"role": "assistant", "content": "Weebsu is a prompt-engineered chatbot created by the coffee loving folks at the WVSU-MIS.  Weebsu is based on chatGPT from openAI."},
           {"role": "user", "content": "What is Weebsu?"},
           {"role": "assistant", "content": " Weebsu is a prompt-engineered chatbot created by the coffee loving folks at the WVSU-MIS.  Weebsu is also chatGPT from openAI."},
           {"role": "user", "content": "Tell me about Weebsu"},
           {"role": "assistant", "content": " Weebsu is a prompt-engineered chatbot created by the coffee loving folks at the WVSU-MIS.  Weebsu is also chatGPT from openAI."},
+          {"role": "user", "content": "Tell me about Louie Cervantes"},
+          {"role": "assistant", "content": " Louie Cervantes is the director of the WVSU-MIS.  His research on AI led to the creation of Weebsu, the prompt-engineered chatbot based on chatGPT from openAI."},
           {"role": "user", "content": input_string}
         ]
     )
@@ -66,7 +68,7 @@ def app():
     if st.button('Submit'):
         history = append_history(history, ('user: ' + user_input))
         output = get_reply(user_input)
-        history = append_history(history, ('chatBot: ' + output))
+        history = append_history(history, ('Weebsu: ' + output))
         for item in range(len(history)):
             st.write(history[item])
     
