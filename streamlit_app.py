@@ -57,7 +57,7 @@ def app():
     st.title("Hi I'm Weebsu! How can I help?")
     st.header("Weebsu is a chatGPT-enabled Chatbot")
     
-    st.write("This project of the MIS uses generative AI imbued with specific knowledge on a set of topics. Like chatGPT, the bot can engage the user in a conversation. Using prompt engineering, we trained this AI with specific information beyond the generic knowledge of chatGPT.")
+    st.write("This project of the MIS uses generative AI enhanced with specific knowledge on a set of topics. Like chatGPT, the bot can engage the user in a conversation. Using prompt engineering, we trained this AI with specific information beyond the general knowledge base of chatGPT.")
 
     st.write("This bot can answer questions about the history, mission, vision, goals, purpose, objectives, innovations, milestones and other information specifically about WVSU.")
     
