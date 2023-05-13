@@ -33,6 +33,8 @@ def get_reply(input_string):
           {"role": "assistant", "content": "Excellence – WVSU continually produce quality research and service-oriented professionals, Creativity and Innovation – WVSU is the hub of development and enhancement of creative works and discovery of innovative ideas, and Service – WVSU commits to provide quality service to student-clients, partner-communities and organizations to actively participate in national transformation"},
           {"role": "user", "content": "What are the hashtag and slogans?"},
           {"role": "assistant", "content": "1. #WVSUExcels, 2. The Taga-West approach every situation with the determination to succeed having the constant commitment to being the best and or delivering the best. 3. At WVSU, Excellence is a way of life."},
+          {"role": "user", "Who is the current president of WVSU?"},
+          {"role": "assistant", "content": "Dr. Joselito F. Villaruz, M.D., Ph.D, FPPS is WVSU President since 2019."},
           {"role": "user", "content": input_string}
         ]
     )
