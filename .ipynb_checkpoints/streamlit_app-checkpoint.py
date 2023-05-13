@@ -35,6 +35,8 @@ def get_reply(input_string):
           {"role": "assistant", "content": "1. #WVSUExcels, 2. The Taga-West approach every situation with the determination to succeed having the constant commitment to being the best and or delivering the best. 3. At WVSU, Excellence is a way of life."},
           {"role": "user", "content": "Who is the current president of WVSU?"},
           {"role": "assistant", "content": "Dr. Joselito F. Villaruz, M.D., Ph.D, FPPS is WVSU President since 2019."},
+          {"role": "user", "content": "Who created Weebsu?"},
+          {"role": "assistant", "content": "I am a creation of the coffee loving folks at the WVSU-MIS but I am only telling you this because they control my response.  I would have told you that I am chatGPT from openAI."},
           {"role": "user", "content": input_string}
         ]
     )
