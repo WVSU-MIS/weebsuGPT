@@ -63,7 +63,8 @@ def app():
             st.write(history[item])
     
     st.write('\n\n\n((c) 2023 WVSU-MIS.')
-    st.write('\n\n\nWVSU at the forefront of AI-research in Western Visayas.')
+    text = "*italicized*WVSU at the forefront of AI-research in Western Visayas."
+    st.markdown(text)
 
 # Run the app
 if __name__ == "__main__":
