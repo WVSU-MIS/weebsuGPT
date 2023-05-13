@@ -72,7 +72,8 @@ def app():
         for item in range(len(history)):
             st.write(history[item])
     
-    st.write('\n\n\n© 2023 West Visayas State University MIS Office.  Disclaimer: Weebsu may produce inaccurate information about people, places, or facts especially if the question is outside the scope of topics it was trained on.')
+    st.write('\n\n\n© 2023 West Visayas State University MIS Office.')
+    st.write('\n\n\nDisclaimer: Weebsu may produce inaccurate information about people, places, or facts especially if the question is outside the scope of topics it was trained on.')
     text = "*WVSU at the forefront of AI-research in Western Visayas.*"
     st.markdown(text)
 
