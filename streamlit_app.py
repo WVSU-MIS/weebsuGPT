@@ -62,7 +62,7 @@ def get_reply(input_string):
 def app():
     # Load image from file
     img = Image.open("weebsu.png")
-    new_size = (100, 100)
+    new_size = (150, 150)
     img = img.resize(new_size)
     st.image(img)
     
