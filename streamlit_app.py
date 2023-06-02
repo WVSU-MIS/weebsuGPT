@@ -5,6 +5,7 @@ import altair as alt
 import openai
 openai.api_key = st.secrets["API_key"]
 import hashlib
+from PIL import Image
 
 global history
 

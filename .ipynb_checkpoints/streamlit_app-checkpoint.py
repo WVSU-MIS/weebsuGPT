@@ -5,6 +5,7 @@ import altair as alt
 import openai
 openai.api_key = st.secrets["API_key"]
 import hashlib
+from PIL import Image
 
 global history
 
@@ -59,6 +60,12 @@ def get_reply(input_string):
 
 # Define the Streamlit app
 def app():
+    # Load image from file
+    img = Image.open("weebsu.png")
+    new_size = (100, 100)
+    img = img.resize(new_size)
+    st.image(img)
+    
     history = []
     st.title("Hi I'm Weebsu! How can I help?")
     st.header("Weebsu is a chatGPT-enabled Chatbot")
