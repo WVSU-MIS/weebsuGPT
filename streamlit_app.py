@@ -85,7 +85,7 @@ def app():
         for item in range(len(history)):
             st.write(history[item])
 
-    st.write("This project of the MIS uses generative AI enhanced with specific knowledge on a set of topics. Like chatGPT, the bot can engage the user in a conversation. Using prompt engineering, we trained this AI with specific information beyond the general knowledge base of chatGPT.")
+    st.write("-----------\n\nThis project of the MIS uses generative AI enhanced with specific knowledge on a set of topics. Like chatGPT, the bot can engage the user in a conversation. Using prompt engineering, we trained this AI with specific information beyond the general knowledge base of chatGPT.")
                 
     st.write('\n\n\n© 2023 West Visayas State University - Management Information System Office.')
     st.write('\n\n\nDisclaimer: Weebsu may produce inaccurate information about people, places, or facts especially if the question is outside the scope of topics it was trained on.')
