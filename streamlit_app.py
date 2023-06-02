@@ -60,6 +60,8 @@ def get_reply(input_string):
 
 # Define the Streamlit app
 def app():
+    st.set_page_config(layout="wide")
+    
     # Load image from file
     img = Image.open("weebsu.png")
     new_size = (150, 150)
