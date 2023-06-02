@@ -70,7 +70,7 @@ def app():
     
     history = []
     st.title("Hi I'm Weebsu! How can I help?")
-    st.header("Weebsu is a chatGPT-enabled Chatbot")
+    st.subheader("Weebsu is a chatGPT-enabled Chatbot")
 
     st.write("This bot can answer questions about the history, mission, vision, goals, purpose, objectives, innovations, milestones and other information specifically about WVSU.")
     
